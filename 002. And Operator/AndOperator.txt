@@ -1,0 +1,12 @@
+And operator is used to check conditions in the code
+
+Table 
+
+T T T
+T F F
+F T F
+F F F
+
+according to this table both the conditions should be true ... only then AND operator will work ...
+
+You will understand more better in hands on... lets goooo

@@ -1,0 +1,10 @@
+You need to take input from user as a list of Integers and stop taking input when the number entered is negative.
+
+then you need to convert that list to an array
+
+then create a method as processArray to make changes in array that you have created
+
+if number is both internal and external then replace it with -8
+else if number in the array is > 49 (internal) then replace it with -3.
+else if number in the array has 5 in the end(external) then replace it with -9
+

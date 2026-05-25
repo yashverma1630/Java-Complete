@@ -1,0 +1,33 @@
+StringBuffer is used when multiple threads are working on same data to avoid data loss. It is slow.
+StringBuilder is used when only one method or operation used to make changes data. it is faster. StringBuilder is used 90% of time.
+
+class Test {
+    public static void main(String[] args) {
+
+        StringBuffer log = new StringBuffer("Start\n");
+
+        // Thread 1
+        Thread t1 = new Thread(() -> {
+            for (int i = 0; i < 5; i++) {
+                log.append("Thread 1: " + i + "\n");
+            }
+        });
+
+        // Thread 2
+        Thread t2 = new Thread(() -> {
+            for (int i = 0; i < 5; i++) {
+                log.append("Thread 2: " + i + "\n");
+            }
+        });
+
+        t1.start();
+        t2.start();
+
+        try {
+            t1.join();
+            t2.join();
+        } catch (Exception e) {}
+
+        System.out.println(log);
+    }
+}

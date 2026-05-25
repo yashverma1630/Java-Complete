@@ -1,0 +1,13 @@
+Or Operator
+
+dono me se koi bhi ek condition bhi true hogai to code run karega ...
+only if both the conditions are false ... the code will not run...
+
+Table 
+ 
+T T T
+T F T
+F T T
+F F F
+
+You will understand better on hands on .... lets goooo to the code ...

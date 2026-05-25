@@ -1,0 +1,9 @@
+take endless inputs from user and prompt Enter any Character to exit the program ...
+
+after the exit of program print Max number and Min number out of the Entered Numbers ... 
+
+use endless do while loop to take endless inputs from the user
+
+use try and catch statement to add validation to exit the program.
+
+if no input is entered the program should print Max=0 and Min=0 and a message no data is entered. 

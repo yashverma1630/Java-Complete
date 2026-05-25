@@ -1,0 +1,15 @@
+Ternary Operator ...
+
+basically if u want to check the conditions and assign the value to variable at the same time .... we use ternary operator ... it saves our time and line of code is also less in it ... 
+
+now lets see how it works 
+
+a = Operand 1 ? Operand 2 : Operand 3 
+
+1. Operand 1 is to check the condition (either its true or false).
+
+2. if operand 1 is true then operand 2 will be assigned to variable a.
+
+3. if operand 1 is false then operand 3 will be assigned to variable b.
+
+you will better understand it on hands on ... so lets goooo to code

@@ -1,0 +1,8 @@
+Object
+|
+Throwable (most of the time the names end with able are interfaces but in this case it is class).
+|
+Error         | Exception
+|                    |
+can't handle      Runtime exception(Arithmetic, ArrayIndexOutOfBound, NullPointer etc.) unchecked)). 
+                  SQL Exception, I/O Exception etc.(checked and compulsory to handle)

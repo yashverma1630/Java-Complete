@@ -1,0 +1,22 @@
+Take input of 5 numbers using Scanner ... (Note: take input of numbers as a string so that we can apply validations on them using try and catch)
+so, Convert the String into integer using -> int number = Integer.parseInt("123");
+
+take input from user : 
+
+Enter Number #1 : 
+Enter Number #2 : 
+.
+.
+.
+Enter Number #5 : 
+
+Check if the number is valid : 
+
+The number is valid if it is proper positive integer for example : 0 1 2 3 or 0.0 2.0 3.5 etc. If number is negative it should print "Negative Numbers are not allowed... Enter Positive numbers only".
+
+if the number has characters... Then it will throw NumberFormatException ... use Try and Catch(NumberFormatException Variable) to resolve the issue.
+It should print.
+
+"Characters are not Allowed !!!... Only numbers are allowed"
+
+Use While loop in code ... 

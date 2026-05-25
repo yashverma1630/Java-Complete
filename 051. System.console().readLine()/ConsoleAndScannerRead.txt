@@ -1,0 +1,2 @@
+Above code will tell you. How to take String input from user using System.console().readLine("Enter Number : "); 
+

@@ -1,0 +1,24 @@
+1. The variables those are declared inside class are instance variables.
+2. The variables those are declared inside the method of the class are called local variables.
+3. Stack is LIFO memory. so every method has it's own stack.
+4. suppose we have a local variables int a =10 and int b=20 in a method inside a class. so those variables will be stored in stack as shown below
+STACK
+|a|10|
+|b|20|
+5. and if we create object of class. it will be created in heap and it will be fetched through its address using stack as shown below
+
+Aclass obj = new Aclass()
+Aclass obj1 = new Aclass()
+
+HEAP
+obj=>address=>101
+this obj have methods : show1(), show2() etc.
+
+obj1=>address=>102
+this obj1 have methods : againShow1(), againShow2() etc.
+
+STACK
+|obj1|102|
+|obj |101|
+|a   |10 |
+|b   |20 |

@@ -1,0 +1,4 @@
+above code will tell you how to convert String input to Integer or Double ... 
+using Integer.parseInt("123");
+int number = Integer.parseInt("123");
+Double number = Double.parseDouble("12.5");

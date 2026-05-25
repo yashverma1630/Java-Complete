@@ -1,0 +1,6 @@
+it will print 3rd last consonant in a string avoiding vowels 
+
+example : 
+dabc
+output:
+d
