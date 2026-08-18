@@ -7,6 +7,7 @@ import java.util.*;
 // Runnable interface is implemented by classes A and B to define the run method for each thread.
 
 // Runnable vs Thread:
+// Runnable interface is used over threads because we can implement Runnable and extend another class at the same time, while Thread class cannot be extended if we are already extending another class. Also, using Runnable allows for better separation of concerns and can be more flexible in certain designs.
 // Runnable is an interface that defines a single method run(),
 // which is meant to be executed by a thread. Thread is a class that represents a
 // thread of execution in a program. A class can implement Runnable to define the
